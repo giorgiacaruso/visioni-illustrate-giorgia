@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    margin: 0px;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    max-width:1200px;
+    margin: auto;
+}
+
+header {
+    max-width: 2500px;
+    background-color: #4A543F;
+    margin:10px;
+    display: flex;
+    padding-left: 0,1px;
+    padding-top: 0,5px;
+    width: 100%;
+    display:flex;
+justify-content:space-between
+
+}
+.linea-orizzontale {
+    height: 1px; /* Imposta l'altezza della linea */
+    background-color: black; /* Colore della linea */
+    margin: 20px 0; /* Aggiunge spazio sopra e sotto la linea */
+  
+}
+
+.linea-orizzontale {
+    border-width: 60px; /* Imposta lo spessore della linea a 2 pixel */
+  
+}
+
+
+.linea-verticale {
+    width: 1px; /* Imposta la larghezza della linea */
+    height: 100px; /* Imposta l'altezza della linea */
+    background-color: black; /* Colore della linea */
+    margin: 05,0px auto; /* Centra la linea e aggiunge spazio sopra e sotto */
+  
+}
+
+
+nav {
+    width: 1400px;
+    margin: 0 auto;
+    
+}
+
+#navbar-list ul {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+    width: fit-content;
+    text-align: center;
+    display:flex;
+justify-content:space-between
+}
+
+#navbar-list ul a {
+    text-decoration: none;
+    display:flex;
+justify-content:space-between
+}
+
+#nav-main {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 3vw;
+    
+}
+
+#nav-main a {
+    color: #fff;
+    text-decoration: none;
+    display:flex;
+justify-content:space-between
+}
+
+.nav-item {
+    width: 100px;
+    text-align: center;
+    color: #fff;
+    display:flex;
+justify-content:space-between
+
+}
+
+.spazio-verde {
+    width: 100%;
+    height: 63px;
+    background-color: #4A543F;
+}
+
+footer {
+    margin: 64px auto 0 auto;
+    border-top: 1px  white;
+    text-align: left;
+    padding: 24px;
+    background-color: #4A543F;
+   
+   }
+
+   footer {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+.text-block p {
+    font-size: 14px;
+    color: white; /* Colore del testo */
+    margin: 0; /* Rimuove il margine predefinito dal paragrafo */
+    display:flex;
+justify-content:space-between
+    
+}
+
+align-right {
+    text-align: auto right; /* Allinea il testo a destra */
+}
+
+.lista-artisti {
+    display:flex;
+    justify-content:space-between; 
+   
+}
+
+img[src*="/immagini/liberta.jpg"] {
+    width: 411px;
+    height: 633px;
+    flex-shrink: 0;
+    border-radius: 101px;
+background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+
+
+}
+img[src*="/immagini/immagine 5.jpg"] {
+    width: 683px;
+    height: 478px;
+    flex-shrink: 0;
+    border-radius: 186px;
+background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+    
+}
+
+img[src*="/immagini/naugurazione .jpg"] {
+    width: 503px;
+height: 638px;
+flex-shrink: 0;
+border-radius: 84px;
+background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+display:flex;
+justify-content:space-between; 
+
+}
